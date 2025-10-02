@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ankur Kapoor - Dolphin Media</title>
+    <link rel="stylesheet" href="css/team-member.css">
+</head>
+<body data-theme="light">
+    <button class="close-btn" onclick="window.history.back()" title="Go Back">&times;</button>
+    <div class="member-detail-container">
+        <div class="member-detail-left">
+            <img src="images/team2.jpeg" alt="Ankur Kapoor">
+        </div>
+        <div class="member-detail-right">
+            <h1>Ankur Kapoor</h1>
+            <h3>Co Founder/CEO</h3>
+            <p>
+                Co Founder/CEO with 18+ years of experience in strategic leadership and event execution.
+            </p>
+        </div>
+    </div>
+    <script>
+        // Theme sync with main page
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.body.setAttribute('data-theme', currentTheme);
+    </script>
+</body>
+</html>

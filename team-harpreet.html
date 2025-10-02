@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harpreet Singh - Dolphin Media</title>
+    <link rel="stylesheet" href="css/team-member.css">
+</head>
+<body data-theme="light">
+    <button class="close-btn" onclick="window.history.back()" title="Go Back">&times;</button>
+    <div class="member-detail-container">
+        <div class="member-detail-left">
+            <img src="images/team4.jpeg" alt="Harpreet Singh">
+        </div>
+        <div class="member-detail-right">
+            <h1>Harpreet Singh</h1>
+            <h3>Head Productions</h3>
+            <p>
+                Head Productions with 12+ years of experience in event production and logistics.
+            </p>
+        </div>
+    </div>
+    <script>
+        // Theme sync with main page
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.body.setAttribute('data-theme', currentTheme);
+    </script>
+</body>
+</html>

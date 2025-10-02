@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Late Vishal Kapoor - Dolphin Media</title>
+    <link rel="stylesheet" href="css/team-member.css">
+</head>
+<body data-theme="light">
+    <button class="close-btn" onclick="window.history.back()" title="Go Back">&times;</button>
+    <div class="member-detail-container">
+        <div class="member-detail-left">
+            <img src="images/team1.jpeg" alt="Late Vishal Kapoor">
+        </div>
+        <div class="member-detail-right">
+            <h1>Late Vishal Kapoor</h1>
+            <h3>Founder</h3>
+            <p>
+                Founder of Dolphin Media with 20+ years of experience in event management.
+            </p>
+        </div>
+    </div>
+    <script>
+        // Theme sync with main page
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        document.body.setAttribute('data-theme', currentTheme);
+    </script>
+</body>
+</html>
