@@ -9,10 +9,7 @@
 - [Quick Start](#quick-start)
 - [Installation Guide](#installation-guide)
 - [File Structure](#file-structure)
-- [Performance Optimizations](#performance-optimizations)
-- [Browser Support](#browser-support)
 - [Contributing](#contributing)
-- [Contact](#contact)
 
 ---
 
@@ -208,31 +205,6 @@ Dolphin Media/
    git push origin feature/your-feature
    ```
 
----
-
-## 📞 **Contact Information**
-
-### **🏢 Dolphin Media**
-- 📧 **Email**: [contact@dolphinmedia.com]
-- 📱 **Phone**: [+91-XXXXXXXXXX]
-- 🌐 **Website**: [www.dolphinmedia.com]
-- 📍 **Offices**: Chandigarh | Panchkula | Gurgaon
-
-### **💻 Technical Support**
-- 🐛 **Bug Reports**: Create an issue in repository
-- 💡 **Feature Requests**: Submit via GitHub issues
-- 📚 **Documentation**: Check this README file
-
----
-
-## 📄 **License**
-
-```
-© 2024 Dolphin Media. All rights reserved.
-This project is for demonstration purposes.
-```
-
----
 
 ## 🙏 **Acknowledgments**
 
@@ -241,7 +213,6 @@ This project is for demonstration purposes.
 - 🌐 **Google Fonts** for typography
 - 💻 **Open Source Community** for inspiration
 
----
 ---
 
 **Made with ❤️ by the Development Team**
